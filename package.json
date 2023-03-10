@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "faker": "^6.6.6",
+    "testcafe": "^2.4.0"
+  }
+}
