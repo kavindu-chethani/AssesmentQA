@@ -1,5 +1,6 @@
 import { Selector, t } from 'testcafe';
 
+//login function
 export default class LoginPage {
   private usernameInput: Selector;
   private passwordInput: Selector;
@@ -19,6 +20,7 @@ export default class LoginPage {
   }
 }
 
+//products
 export class ProductsPage {
   private cartIcon: Selector;
   private addToCartButtons: Selector;
@@ -46,6 +48,7 @@ export class ProductsPage {
   }
 }
 
+//cart 
 export class CartPage {
   private checkoutButton: Selector;
 
@@ -57,6 +60,8 @@ export class CartPage {
     await t.click(this.checkoutButton);
   }
 }
+
+//checkout
 
 export class CheckoutPage {
   private firstNameInput: Selector;
